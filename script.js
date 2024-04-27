@@ -104,3 +104,37 @@ if (score >= 80 && score <= 100) {
 
 console.log(grade);
 */
+
+//Loops in js
+
+//for loop
+/* for (let i = 1; i <= 5; i++) {
+  console.log("Sk");
+}
+
+
+for (let count = 1; count <= 5; count++) {
+  console.log("SK");
+}
+
+
+
+// while loop
+ while (condition){
+  //do some work
+ }
+
+let i = 1;
+while (i <= 10) {
+  console.log("Sk");
+  i++;
+}
+ 
+
+//do while loop
+let i = 20;
+do {
+  console.log("SK");
+  i++;
+} while (i <= 20);
+*/
