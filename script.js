@@ -138,3 +138,41 @@ do {
   i++;
 } while (i <= 20);
 */
+
+// let str = "Kabir";
+// console.log(str[3]);
+
+//Template literals
+// let sentence = `This is a template literals`;
+// console.log(typeof sentence);
+
+// Template Literal -> String Interpolation
+// let obj = {
+//   item: "pen",
+//   price: 10,
+// };
+
+// let output = `The cost of ${obj.item} is \n ${obj.price} taka`;
+// console.log(output);
+
+//String method in Js
+// let str = "shahria kabir";
+// let str2 = "Love you";
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// console.log(str.slice(0, 4));
+// console.log(str.concat(str2));
+// let res = str.concat(str2);
+
+// console.log(res);
+
+// console.log(str.replace("kabir", "Kabir"));
+// console.log(str.charAt(3));
+
+//Lets Practise
+
+let fullName = prompt("Enter your full name without spaces");
+console.log(fullName);
+let userName = "@" + fullName + fullName.length;
+console.log(userName);
