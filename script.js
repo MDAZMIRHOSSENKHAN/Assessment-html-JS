@@ -172,7 +172,20 @@ do {
 
 //Lets Practise
 
-let fullName = prompt("Enter your full name without spaces");
-console.log(fullName);
-let userName = "@" + fullName + fullName.length;
-console.log(userName);
+// let fullName = prompt("Enter your full name without spaces");
+// console.log(fullName);
+// let userName = "@" + fullName + fullName.length;
+// console.log(userName);
+
+//Learning Arrays
+// let heros = ["ironman", "superman", "hulk", "Batman", "Spiderman"];
+//looping over an Array
+//for loop
+// for (let i = 0; i < heros.length; i++) {
+//   console.log(heros[i]);
+// }
+
+//best - for of loop
+// for (hero of heros) {
+//   console.log(hero);
+// }
