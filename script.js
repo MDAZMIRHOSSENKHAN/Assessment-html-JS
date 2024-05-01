@@ -189,3 +189,67 @@ do {
 // for (hero of heros) {
 //   console.log(hero);
 // }
+
+//Aray Method
+// let foodItems = ["potato", "apples", "banana", "orange"];
+// foodItems.push("burger"); //add item in the end
+// foodItems.pop(); //del from last one
+// console.log(foodItems.toString()); //no change in main one
+// console.log(foodItems);
+
+//concat => add two arrays
+//unshift => add items in start
+//shift => del items in start
+//slice => returns a piece of the array: (no change in original array.),
+//***splice => change in original array.
+// spice(startIdx, delCount, newEl)
+
+//Functions => block of code that performs specific task ,can be invoked whenever needed.
+
+//=> function definition
+// function functionName(){
+//do some work}
+
+// function myFunction() { //parameter -> input
+//   console.log("Welcome");
+//   console.log("We are learning Js");
+// }
+
+//Function call => functionName()
+
+//myFunction();  //argument
+
+//Function -> 2 numbers, sum
+// function sum(x, y) {
+//   console.log(x + y);
+// }
+// sum(2, 5);
+
+//Array Function => It is modern Js, short version of Function, for short work
+// const functionName =(param1,param2)=>{
+//   //do some work
+// }
+
+//Practise => vowelsCount
+
+function countVowels(str) {
+  let count = 0;
+  for (const char of str) {
+    if (
+      char === "a" ||
+      char === "A" ||
+      char === "e" ||
+      char === "E" ||
+      char === "i" ||
+      char === "I" ||
+      char === "o" ||
+      char === "O" ||
+      char === "u" ||
+      char === "U"
+    ) {
+      count++;
+    }
+  }
+  console.log(count);
+}
+countVowels("aeiou");
