@@ -232,24 +232,52 @@ do {
 
 //Practise => vowelsCount
 
-function countVowels(str) {
-  let count = 0;
-  for (const char of str) {
-    if (
-      char === "a" ||
-      char === "A" ||
-      char === "e" ||
-      char === "E" ||
-      char === "i" ||
-      char === "I" ||
-      char === "o" ||
-      char === "O" ||
-      char === "u" ||
-      char === "U"
-    ) {
-      count++;
-    }
-  }
-  console.log(count);
-}
-countVowels("aeiou");
+// function countVowels(str) {
+//   let count = 0;
+//   for (const char of str) {
+//     if (
+//       char === "a" ||
+//       char === "A" ||
+//       char === "e" ||
+//       char === "E" ||
+//       char === "i" ||
+//       char === "I" ||
+//       char === "o" ||
+//       char === "O" ||
+//       char === "u" ||
+//       char === "U"
+//     ) {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// }
+// countVowels("aeiou");
+
+//Aray Map methods ******
+// Creates a new array with the results of some opearation. The value its callback returns are used to form new array.
+//=> arr.map(callbackFnx(value, index, array))
+
+// let nums = [76, 38, 93];
+// nums.map((val) => {
+//   console.log(val ** 2);
+// });
+// let calcSquare = (num) => {
+//   console.log(num * num);
+// };
+
+//Filter method in array => creates a new array of elements that give true for a condition/ filter.
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let evenArr = arr.filter((val) => {
+//   return val % 2 === 0;
+// });
+// console.log(evenArr);
+
+// Reduce method in Array Method => performs some operatuon & reduces the array to single value. it returns that single value.
+
+//DOM Part
+//console.log(window);
+//console.dir -> prop method
+
+//DOM manupulation
